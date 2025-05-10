@@ -2,11 +2,11 @@
 
 ###
 
-<h4 align="center">A passionate Full Stack Developer & Data Analyst from India, building web apps and extracting data insights.</h4>
+<h4 align="center">An aspiring Full Stack Developer & Data Analyst from India, building web apps and extracting data insights.</h4>
 <br/>
 
 ## 💫 About Me:
-<p align="left">🔭 I’m currently working on my own webpage<br><br>💬 Ask me about MERN Stack, Data Analytics & Collaborations<br><br>📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br><br>⚡ Fun fact I like going out🧳, and watch anime.</p>
+<p align="left">🔭 I’m currently working on my own webpage<br>🌱 Pre-Final year CSE student at KIIT, currently looking for opportunities!<br>💬 Ask me about MERN Stack, Data Analytics & Collaborations<br>📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>⚡ Fun fact I like going out🧳, and watch anime.</p>
 
 ###
 
