@@ -40,8 +40,8 @@
   <img src="https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" height="20" alt="Jupyter logo" />
   <img width="4" />
   <img src="https://img.shields.io/badge/-NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" height="20" alt="NPM logo" />
-  <img width="4" />
-  <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" height="20" alt="Angular logo" />
+<!--   <img width="4" />
+  <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" height="20" alt="Angular logo" /> -->
   <img width="4" />
   <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="20" alt="MongoDB logo" />
 </div>
