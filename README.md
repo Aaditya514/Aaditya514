@@ -10,6 +10,7 @@
 
 ###
 
+<br/>
 
 
 # 💻 Tech Stack:
@@ -51,7 +52,7 @@
 </div>
 
 
-
+<br/>
 
 ## 🌐 Socials:
 
@@ -72,6 +73,7 @@
 </div>
 
 <br/>
+<br/>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" height="150" alt="GitHub Stats" style="margin-right: 20px;" />
@@ -80,8 +82,9 @@
 
 <br/>
 
+
 <div align="center">
-  <img src="https://i.imgflip.com/65efzo.gif" height="150" alt="funny anime gif" />
+  <img src="https://i.giphy.com/Jz7eUZut4DSl04bz2q.webp" alt="Cat GIF" height="150" />
 </div>
 
 ###
