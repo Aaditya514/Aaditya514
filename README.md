@@ -15,36 +15,41 @@
 # 💻 Tech Stack:
 
 <div align="left">
-  <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" height="20" alt="C++ logo" />
+  <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" height="32" alt="C++ logo" />
+  <img width="5" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="32" alt="JavaScript logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="20" alt="JavaScript logo" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="32" alt="React logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="20" alt="React logo" />
+  <img src="https://img.shields.io/badge/-REST%20API-000000?style=for-the-badge&logo=rest&logoColor=white" height="32" alt="REST API logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" height="20" alt="Express logo" />
+  <img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" height="32" alt="Express logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" height="20" alt="Node.js logo" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" height="32" alt="Node.js logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="20" alt="HTML5 logo" />
-   <img width="4" />
-  <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" height="20" alt="TailwindCSS logo" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="32" alt="HTML5 logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="20" alt="Python logo" />
+  <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" height="32" alt="TailwindCSS logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" height="20" alt="Anaconda logo" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="32" alt="Python logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="20" alt="Pandas logo" />
+  <img src="https://img.shields.io/badge/-Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" height="32" alt="Anaconda logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="20" alt="NumPy logo" />
+  <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="32" alt="Pandas logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" height="20" alt="Jupyter logo" />
+  <img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="32" alt="NumPy logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" height="20" alt="NPM logo" />
-<!--   <img width="4" />
-  <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" height="20" alt="Angular logo" /> -->
+  <img src="https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" height="32" alt="Jupyter logo" />
   <img width="4" />
-  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="20" alt="MongoDB logo" />
+  <img src="https://img.shields.io/badge/-NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" height="32" alt="NPM logo" />
+  <img width="4" />
+  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="32" alt="MongoDB logo" />
+  <img width="4" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="32" alt="MySQL logo" />
+  <img width="4" />
+  <img src="https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" height="32" alt="Postman logo" />
 </div>
+
 
 
 
