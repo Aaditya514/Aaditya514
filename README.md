@@ -6,7 +6,7 @@
 <br/>
 
 ## 💫 About Me:
-<p align="left">🔭 I’m currently working on my own webpage<br>🌱 Pre-Final year CSE student at KIIT, currently looking for opportunities!<br>💬 Ask me about MERN Stack, Data Analytics & Collaborations<br>📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>⚡ Fun fact I like going out🧳, and watch anime.</p>
+<p align="left">🔭 I’m currently working on my own webpage<br>🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>💬 Ask me about MERN Stack, Data Analytics & Collaborations<br>📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>⚡ Fun fact I like going out🧳, and watch anime.</p>
 
 ###
 
