@@ -70,7 +70,7 @@
 <br/>
 
 ## 🌐 Socials:
-
+🚀 Wanna build cool sh*t together? Let’s connect!
 <div align="left">
   <a href="https://www.instagram.com/_._aadiboi_._/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="instagram logo" />
