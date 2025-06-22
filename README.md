@@ -6,7 +6,15 @@
 <br/>
 
 ## 💫 About Me:
-<p align="left">🔭 I’m currently working on my own webpage<br>🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>💬 Ask me about MERN Stack, Data Analytics & Collaborations<br>📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>⚡ Fun fact I like going out🧳, and watch anime.</p>
+<p align="left">
+🔭 Currently crafting my own web projects, blending MERN / PERN stacks with AI to create impactful, intelligent apps.<br>
+🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>
+💬 Ask me about MERN/PERN Stack (whatever my group wanna work with), Data Analytics & Collaborations<br>
+📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>
+⚡ Fun fact I like going out🧳, bingeing on anime and creating cool things from scratch..<br><br>
+<em>"He who is unattached to everything, and who meets good or evil without rejoicing or shunning them, is wise and poised." — <strong>Bhagavad Gita</strong></em>
+</p>
+
 
 ###
 
