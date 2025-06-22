@@ -58,7 +58,8 @@
 <br/>
 
 ## 🌐 Socials:
-🚀 Wanna build cool sh*t together? Let’s connect!
+<p align="left"><strong>✨ Wanna build cool sh*t? Let's connect and create something epic together!</strong></p>
+
 <div align="left">
   <a href="https://www.instagram.com/_._aadiboi_._/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="instagram logo" />
@@ -71,7 +72,7 @@
   </a>
   <a href="https://www.facebook.com/share/1AZjKSRpnn/" target="_blank">
   <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="facebook logo" />
-    <a href="https://discord.com/users/YOUR_DISCORD_ID" target="_blank">
+    <a href="https://discord.com/users/nihilist514" target="_blank">
   <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="28" alt="Discord Badge" />
 </a>
 </a>
