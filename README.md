@@ -91,9 +91,7 @@
 <br/>
 
 
-<div align="center">
-  <img src="https://i.giphy.com/Jz7eUZut4DSl04bz2q.webp" alt="Cat GIF" height="150" />
-</div>
+
 
 ###
 
