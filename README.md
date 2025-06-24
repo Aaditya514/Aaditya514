@@ -2,14 +2,15 @@
 
 ###
 
-<h4 align="center">An aspiring Full Stack Developer & Data Analyst from India, building web apps and extracting data insights.</h4>
+<h4 align="center">Full Stack Developer & Data Analyst Learner from India, building web apps and extracting data insights.</h4>
 <br/>
 
 ## 💫 About Me:
 <p align="left">
-🔭 Currently crafting my own web projects, blending MERN / PERN stacks with AI to create impactful, intelligent apps.<br>
+🔭 MERN/PERN developer passionate about building impactful apps, and equally driven by the power of data analytics.<br>
+🚧 Right now I’m working on my own projects and always up for collabs in full-stack or data analytics!<br>
 🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>
-💬 Ask me about MERN/PERN Stack (whatever my group wanna work with), Data Analytics & Collaborations<br>
+💬 Ask me about MERN/PERN Stack (whatever my group wanna work with), Data Analytics<br>
 📫 How to reach me <a href="mailto:aanandaaditya5@gmail.com">aanandaaditya5@gmail.com</a>.<br>
 ⚡ Fun fact I like going out🧳, bingeing on anime and creating cool things from scratch..<br><br>
 <em>"He who is unattached to everything, and who meets good or evil without rejoicing or shunning them, is wise and poised." — <strong>Bhagavad Gita</strong></em>
