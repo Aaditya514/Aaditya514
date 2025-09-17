@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="center">Full Stack Developer & Data Analyst Learner from India, building web apps and extracting data insights.</h4>
+<h4 align="center">Full Stack Developer from India, building web apps and extracting data insights.</h4>
 <br/>
 
 ## 💫 About Me:
@@ -14,7 +14,6 @@
 ⚡ Fun fact: I like going out🧳, bingeing on anime, and creating cool things from scratch..<br>
 </p>
 
-<em>"He who is unattached to everything, and who meets good or evil without rejoicing or shunning them, is wise and poised." — <strong>Bhagavad Gita</strong></em>
 </p>
 
 
