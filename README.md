@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="center">Full Stack Developer from India, building web apps and extracting data insights.</h4>
+<h4 align="center">Full Stack Developer from India, building web apps.</h4>
 <br/>
 
 ## 💫 About Me:
