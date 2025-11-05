@@ -7,10 +7,10 @@
 
 ## 💫 About Me:
 <p align="left">
-🔭 MERN/PERN developer passionate about building impactful apps and creating smooth user experiences.<br>
+🔭 MERN developer passionate about building impactful apps and creating smooth user experiences.<br>
 🚧 Right now I’m working on my own projects, currently learning GSAP, and always up for collabs in full-stack development!<br>
 🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>
-💬 Ask me about MERN/PERN Stack, building scalable web apps, and frontend animations.<br>
+💬 Ask me about MERNStack, building scalable web apps, and frontend animations.<br>
 ⚡ Fun fact: I like going out🧳, bingeing on anime, and creating cool things from scratch..<br>
 </p>
 
