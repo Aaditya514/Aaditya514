@@ -11,7 +11,7 @@
 🚀 My work spans full-stack web applications, workflow tools, dashboards, and user-focused products designed to solve practical problems and improve everyday experiences.<br>
 💻 I work across the stack with Java, Spring Boot, Node.js, Angular, React, PostgreSQL, MongoDB, and Redis to create reliable and impactful solutions.<br>
 🌱 Currently focused on backend architecture, system design, and building software that balances performance, usability, and real-world value.<br>
-⚡ Outside of code, I love traveling, anime, and bringing creative ideas to life through side projects.<br>
+⚡ Outside of code, I enjoy nature, understanding human psychology, and bringing creative ideas to life through side projects.<br>
 </p>
 
 ###
@@ -73,13 +73,13 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" alt="JavaScript coding animation" />
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" alt="JavaScript animation" />
 </div>
 
 ###
