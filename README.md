@@ -7,11 +7,10 @@
 
 ## 💫 About Me:
 <p align="left">
-🔭 I’m a full-stack developer and Computer Science student passionate about building impactful products, intuitive interfaces, and scalable web apps.<br>
-🚀 I enjoy working with the MERN stack, modern frontend tools, and data-driven projects that turn ideas into real experiences.<br>
-🌱 Currently exploring advanced frontend animations, polished UI/UX, and deployment-ready projects while continuing to learn and build.<br>
-💼 Open to internships, collaborations, and opportunities where I can contribute to meaningful product development.<br>
-💬 Ask me about MERN stack, full-stack architecture, dashboards, and frontend experiences.<br>
+🔭 I’m a full-stack developer and Computer Science student from India who enjoys building scalable software and thoughtful digital experiences.<br>
+🚀 My work spans full-stack web applications, workflow tools, dashboards, and user-focused products designed to solve practical problems and improve everyday experiences.<br>
+💻 I work across the stack with Java, Spring Boot, Node.js, Angular, React, PostgreSQL, MongoDB, and Redis to create reliable and impactful solutions.<br>
+🌱 Currently focused on backend architecture, system design, and building software that balances performance, usability, and real-world value.<br>
 ⚡ Outside of code, I love traveling, anime, and bringing creative ideas to life through side projects.<br>
 </p>
 
