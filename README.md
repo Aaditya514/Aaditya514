@@ -7,11 +7,12 @@
 
 ## 💫 About Me:
 <p align="left">
-🔭 MERN developer passionate about building impactful apps and creating smooth user experiences.<br>
-🚧 Right now I’m working on my own projects, currently learning GSAP, and always up for collabs in full-stack development!<br>
-🌱 Final year CSE student at KIIT, currently looking for opportunities!<br>
-💬 Ask me about MERNStack, building scalable web apps, and frontend animations.<br>
-⚡ Fun fact: I like going out🧳, bingeing on anime, and creating cool things from scratch..<br>
+🔭 I’m a full-stack developer and Computer Science student passionate about building impactful products, intuitive interfaces, and scalable web apps.<br>
+🚀 I enjoy working with the MERN stack, modern frontend tools, and data-driven projects that turn ideas into real experiences.<br>
+🌱 Currently exploring advanced frontend animations, polished UI/UX, and deployment-ready projects while continuing to learn and build.<br>
+💼 Open to internships, collaborations, and opportunities where I can contribute to meaningful product development.<br>
+💬 Ask me about MERN stack, full-stack architecture, dashboards, and frontend experiences.<br>
+⚡ Outside of code, I love traveling, anime, and bringing creative ideas to life through side projects.<br>
 </p>
 
 </p>
@@ -53,6 +54,7 @@
 
 
 
+
 <br/>
 
 ## 🌐 Socials:
@@ -81,7 +83,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" height="150" alt="GitHub Stats" style="margin-right: 20px;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 
@@ -89,7 +91,7 @@
 
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" alt="Java GIF" height="200" />
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" alt="JavaScript or coding animation" />
 </div>
 
 
