@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:61DAFB&height=140&section=header" width="100%" alt="" />
+
 <div align="center">
   <h1>Hey there, I'm Aaditya Aanand 👋</h1>
 
@@ -12,10 +14,8 @@
     <a href="https://www.linkedin.com/in/aadityaaanand514" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
     </a>
-    <a href="mailto:aanandaaditya5@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
-    </a>
     <img src="https://img.shields.io/badge/Location-India-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location Badge" />
+    <img src="https://komarev.com/ghpvc/?username=Aaditya514&style=for-the-badge&color=61DAFB&label=PROFILE+VIEWS" alt="Profile views" />
   </p>
 </div>
 
@@ -25,51 +25,76 @@
 
 <table>
   <tr>
-    <td valign="top" width="60%">
+    <td valign="top" width="55%">
 
 - 🔭 **Current Focus:** Crafting robust backend architectures, scalable microservices, and modern web applications.
 - 🎓 **Education:** Computer Science student with a strong passion for Software Engineering, System Design, and Algorithms.
 - 🚀 **Building Impactful Projects:** Architecting solutions like [**auto-meds**](https://github.com/Aaditya514/auto-meds), [**priora**](https://github.com/Aaditya514/priora), and real-time event-driven pipelines.
-- 💻 **Core Technologies:** Java, Spring Boot, Angular, TypeScript, Node.js, and PostgreSQL/MongoDB/Redis.
 - 💡 **Engineering Philosophy:** Clean architecture, performance optimization, and building software that delivers tangible real-world value.
 - ⚡ **Beyond the Code:** Fascinated by human psychology, exploring nature, and bringing creative ideas to life through side projects.
 
   </td>
-  <td valign="middle" align="center" width="40%">
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" width="100%" alt="Coding Animation" />
+  <td valign="top" width="45%">
+
+```bash
+$ whoami
+aaditya-aanand
+
+$ cat focus.txt
+Spring Boot · Angular · System design
+
+$ cat beyond_code.txt
+Psychology · nature · side projects
+
+$ ./open_to.sh
+Internships · collabs · cool sh*t
+```
+
   </td>
   </tr>
 </table>
 
 <br/>
 
+## 🏗️ How I Build
+
+```mermaid
+flowchart LR
+    A["Angular + TypeScript"] -->|REST / WebSocket| B["Spring Boot API"]
+    B --> C[("PostgreSQL")]
+    B --> D[("Redis")]
+    D --> E["Node.js Notification Service"]
+    E --> F["Async delivery & real-time alerts"]
+    G["GitHub Actions"] --> H["Docker"] --> I["Vercel / Cloud"]
+```
+
+<br/>
+
 ## 💻 Tech Stack
 
-<div align="left">
-  <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="30" alt="Java" />
-  <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" height="30" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="30" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="30" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" height="30" alt="Angular" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" height="30" alt="Node.js" />
-  <img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" height="30" alt="Express" />
-  <img src="https://img.shields.io/badge/-REST%20API-000000?style=for-the-badge&logo=rest&logoColor=white" height="30" alt="REST API" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="30" alt="Python" />
-  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="30" alt="C++" />
-  <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" height="30" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="30" alt="HTML5" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="30" alt="CSS3" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" height="30" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="30" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" height="30" alt="Redis" />
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="30" alt="MySQL" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="30" alt="Docker" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="30" alt="Git" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30" alt="GitHub" />
-  <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" height="30" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="30" alt="Vercel" />
-  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" height="30" alt="Supabase" />
-  <img src="https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" height="30" alt="Postman" />
+<div align="center">
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,ts,js,python,cpp&perline=8" alt="Languages" /></td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=spring,nodejs,express,postman&perline=8" alt="Backend" /></td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=angular,tailwind,html,css&perline=8" alt="Frontend" /></td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql,supabase&perline=8" alt="Data" /></td>
+  </tr>
+  <tr>
+    <td><b>DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel&perline=8" alt="DevOps" /></td>
+  </tr>
+</table>
 </div>
 
 <br/>
@@ -122,8 +147,28 @@
 
 <br/>
 
-## 🌐 Socials:
-<p align="left"><strong>✨ Wanna build cool sh*t? Let's connect and create something epic together!</strong></p>
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=true" height="165" alt="Top Languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=Aaditya514&theme=dracula&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
+</picture>
+
+<br/>
+
+## 🌐 Socials
+
+**✨ Wanna build cool sh*t? Let's connect and create something epic together!**
 
 <div align="left">
   <a href="https://www.instagram.com/_._aadiboi_._/" target="_blank">
@@ -143,21 +188,4 @@
   </a>
 </div>
 
-<br/>
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
-</div>
-
-
-<br clear="both">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
-</picture>
-
-###
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:61DAFB,100:0d1117&height=100&section=footer" width="100%" alt="" />
