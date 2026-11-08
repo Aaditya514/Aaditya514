@@ -2,7 +2,7 @@
   <h1>Hey there, I'm Aaditya Aanand 👋</h1>
 
   <a href="https://aaditya514-github-io.vercel.app/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%26+CS+Student;Java+%26+Spring+Boot+Backend+Builder;Crafting+Modern+React+%26+Angular+Web+Apps;Exploring+Scalable+System+Design;Passionate+Problem+Solver+%26+Lifelong+Learner" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%26+CS+Student;Java+%26+Spring+Boot+Backend+Builder;Crafting+Modern+Angular+%26+Web+Apps;Exploring+Scalable+System+Design;Passionate+Problem+Solver+%26+Lifelong+Learner" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -27,10 +27,10 @@
   <tr>
     <td valign="top" width="60%">
 
-- 🔭 **Current Focus:** Crafting robust backend architectures, scalable microservices, and reactive full-stack web applications.
+- 🔭 **Current Focus:** Crafting robust backend architectures, scalable microservices, and modern web applications.
 - 🎓 **Education:** Computer Science student with a strong passion for Software Engineering, System Design, and Algorithms.
 - 🚀 **Building Impactful Projects:** Architecting solutions like [**auto-meds**](https://github.com/Aaditya514/auto-meds), [**priora**](https://github.com/Aaditya514/priora), and real-time event-driven pipelines.
-- 💻 **Core Technologies:** Java, Spring Boot, TypeScript, Node.js, React, Angular, and PostgreSQL/MongoDB/Redis.
+- 💻 **Core Technologies:** Java, Spring Boot, Angular, TypeScript, Node.js, and PostgreSQL/MongoDB/Redis.
 - 💡 **Engineering Philosophy:** Clean architecture, performance optimization, and building software that delivers tangible real-world value.
 - ⚡ **Beyond the Code:** Fascinated by human psychology, exploring nature, and bringing creative ideas to life through side projects.
 
@@ -43,50 +43,33 @@
 
 <br/>
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
 <div align="left">
-
-### 💻 Languages & Backend
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-</p>
-
-### 🎨 Frontend & Styling
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-### 🗄️ Databases & Caching
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-</p>
-
-### ⚙️ DevOps, Tools & Cloud
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-</p>
-
+  <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="30" alt="Java" />
+  <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" height="30" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="30" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="30" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" height="30" alt="Angular" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" height="30" alt="Node.js" />
+  <img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" height="30" alt="Express" />
+  <img src="https://img.shields.io/badge/-REST%20API-000000?style=for-the-badge&logo=rest&logoColor=white" height="30" alt="REST API" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="30" alt="Python" />
+  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="30" alt="C++" />
+  <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" height="30" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="30" alt="HTML5" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="30" alt="CSS3" />
+  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" height="30" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" height="30" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" height="30" alt="Redis" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="30" alt="MySQL" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="30" alt="Docker" />
+  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="30" alt="Git" />
+  <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30" alt="GitHub" />
+  <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" height="30" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="30" alt="Vercel" />
+  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" height="30" alt="Supabase" />
+  <img src="https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" height="30" alt="Postman" />
 </div>
 
 <br/>
