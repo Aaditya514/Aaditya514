@@ -21,16 +21,25 @@
 
 <br/>
 
-## 💫 About Me:
-<p align="left">
-🔭 I’m a full-stack developer and Computer Science student from India who enjoys building scalable software and thoughtful digital experiences.<br>
-🚀 My work spans full-stack web applications, workflow tools, dashboards, and user-focused products designed to solve practical problems and improve everyday experiences.<br>
-💻 I work across the stack with Java, Spring Boot, Node.js, Angular, React, PostgreSQL, MongoDB, and Redis to create reliable and impactful solutions.<br>
-🌱 Currently focused on backend architecture, system design, and building software that balances performance, usability, and real-world value.<br>
-⚡ Outside of code, I enjoy nature, understanding human psychology, and bringing creative ideas to life through side projects.<br>
-</p>
+## 💫 About Me
 
-###
+<table>
+  <tr>
+    <td valign="top" width="60%">
+
+- 🔭 **Current Focus:** Crafting robust backend architectures, scalable microservices, and reactive full-stack web applications.
+- 🎓 **Education:** Computer Science student with a strong passion for Software Engineering, System Design, and Algorithms.
+- 🚀 **Building Impactful Projects:** Architecting solutions like [**auto-meds**](https://github.com/Aaditya514/auto-meds), [**priora**](https://github.com/Aaditya514/priora), and real-time event-driven pipelines.
+- 💻 **Core Technologies:** Java, Spring Boot, TypeScript, Node.js, React, Angular, and PostgreSQL/MongoDB/Redis.
+- 💡 **Engineering Philosophy:** Clean architecture, performance optimization, and building software that delivers tangible real-world value.
+- ⚡ **Beyond the Code:** Fascinated by human psychology, exploring nature, and bringing creative ideas to life through side projects.
+
+  </td>
+  <td valign="middle" align="center" width="40%">
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" width="100%" alt="Coding Animation" />
+  </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -92,13 +101,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya514&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFiNndtZzd4YXY4b3owMXQ5Znl1a3lkNmhvMzgwdzlpM3pxcjV6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boYxZ1fa72kcgr70sN/giphy.gif" alt="JavaScript animation" />
-</div>
-
-###
 
 <br clear="both">
 
