@@ -1,8 +1,24 @@
-<h1 align="center">Yo 👋! My name is Aaditya Aanand</h1>
+<div align="center">
+  <h1>Hey there, I'm Aaditya Aanand 👋</h1>
 
-###
+  <a href="https://aaditya514-github-io.vercel.app/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%26+CS+Student;Java+%26+Spring+Boot+Backend+Builder;Crafting+Modern+React+%26+Angular+Web+Apps;Exploring+Scalable+System+Design;Passionate+Problem+Solver+%26+Lifelong+Learner" alt="Typing SVG" />
+  </a>
 
-<h4 align="center">Full Stack Developer from India, building web apps.</h4>
+  <p align="center">
+    <a href="https://aaditya514-github-io.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Badge" />
+    </a>
+    <a href="https://www.linkedin.com/in/aadityaaanand514" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+    </a>
+    <a href="mailto:aanandaaditya5@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
+    </a>
+    <img src="https://img.shields.io/badge/Location-India-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location Badge" />
+  </p>
+</div>
+
 <br/>
 
 ## 💫 About Me:
