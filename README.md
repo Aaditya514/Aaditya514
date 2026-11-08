@@ -53,7 +53,13 @@
 <img src="assets/t-activity.svg" width="100%" alt="Latest activity" />
 
 <!--START_SECTION:repos-->
-_Syncing your latest repositories — the first refresh runs shortly._
+| Repository | About | Language | ⭐ | Last push |
+|---|---|---|---|---|
+| [**auto-meds**](https://github.com/Aaditya514/auto-meds) | — | Java | 0 | 2026-11-08 |
+| [**the-college-life**](https://github.com/Aaditya514/the-college-life) | — | TypeScript | 0 | 2026-10-16 |
+| [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | — | JavaScript | 0 | 2026-10-02 |
+| [**priora**](https://github.com/Aaditya514/priora) | — | TypeScript | 0 | 2026-09-24 |
+| [**Notification-Service**](https://github.com/Aaditya514/Notification-Service) | — | JavaScript | 0 | 2026-09-21 |
 <!--END_SECTION:repos-->
 
 <details>
@@ -61,7 +67,7 @@ _Syncing your latest repositories — the first refresh runs shortly._
 <br/>
 
 <!--START_SECTION:commits-->
-_Syncing…_
+_No recent public commits._
 <!--END_SECTION:commits-->
 
 </details>
