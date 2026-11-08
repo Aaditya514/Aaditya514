@@ -74,6 +74,54 @@
 
 <br/>
 
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏥 <a href="https://github.com/Aaditya514/auto-meds">auto-meds</a></h3>
+      <p>Automated healthcare workflow & prescription system with microservice architecture, Docker deployment, and scalable data persistence.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/Aaditya514/priora">priora</a></h3>
+      <p>High-efficiency priority management and productivity application engineered for streamlined task scheduling and performance.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔔 <a href="https://github.com/Aaditya514/Notification-Service">Notification-Service</a></h3>
+      <p>Event-driven backend architecture for reliable asynchronous message delivery, queuing, and real-time alerts.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📍 <a href="https://github.com/Aaditya514/Real-Time-Tracker">Real-Time-Tracker</a></h3>
+      <p>Live real-time location telemetry system delivering bidirectional coordinate tracking and instant mapping updates.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+        <img src="https://img.shields.io/badge/Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white" alt="Maps" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 ## 🌐 Socials:
 <p align="left"><strong>✨ Wanna build cool sh*t? Let's connect and create something epic together!</strong></p>
 
