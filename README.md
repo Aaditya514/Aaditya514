@@ -50,6 +50,26 @@
 
 <br/>
 
+<img src="assets/t-activity.svg" width="100%" alt="Latest activity" />
+
+<!--START_SECTION:repos-->
+_Syncing your latest repositories — the first refresh runs shortly._
+<!--END_SECTION:repos-->
+
+<details>
+<summary><b>⚡ Latest commits</b></summary>
+<br/>
+
+<!--START_SECTION:commits-->
+_Syncing…_
+<!--END_SECTION:commits-->
+
+</details>
+
+<sub>This section refreshes itself every few hours with a GitHub Action.</sub>
+
+<br/>
+
 <img src="assets/t-stats.svg" width="100%" alt="Live stats" />
 
 <div align="center">
