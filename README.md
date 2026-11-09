@@ -53,13 +53,13 @@
 <img src="assets/t-activity.svg" width="100%" alt="Latest activity" />
 
 <!--START_SECTION:repos-->
-| Repository | About | Language | ⭐ | Last push |
-|---|---|---|---|---|
-| [**auto-meds**](https://github.com/Aaditya514/auto-meds) | — | Java | 0 | 2026-11-08 |
-| [**the-college-life**](https://github.com/Aaditya514/the-college-life) | — | TypeScript | 0 | 2026-10-16 |
-| [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | — | JavaScript | 0 | 2026-10-02 |
-| [**priora**](https://github.com/Aaditya514/priora) | — | TypeScript | 0 | 2026-09-24 |
-| [**Notification-Service**](https://github.com/Aaditya514/Notification-Service) | — | JavaScript | 0 | 2026-09-21 |
+| Repository | Language | ⭐ | Last push |
+|---|---|---|---|
+| [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-08 |
+| [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
+| [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | JavaScript | 0 | 2026-10-02 |
+| [**priora**](https://github.com/Aaditya514/priora) | TypeScript | 0 | 2026-09-24 |
+| [**Notification-Service**](https://github.com/Aaditya514/Notification-Service) | JavaScript | 0 | 2026-09-21 |
 <!--END_SECTION:repos-->
 
 <details>
@@ -67,7 +67,12 @@
 <br/>
 
 <!--START_SECTION:commits-->
-_No recent public commits._
+- `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — chore: remove legacy architecture artifacts, scratch notes, and update…
+- `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — docs: add Understand-Anything interactive codebase knowledge graph
+- `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — fix(responsive): resolve 100% zoom overflow on top navbar and cards for…
+- `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: set cancel-in-progress to false for CI workflow
+- `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: enable workflow_dispatch trigger for CI pipeline
+- `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: fix setup-android inputs to use packages and accept-android-sdk-lic…
 <!--END_SECTION:commits-->
 
 </details>
