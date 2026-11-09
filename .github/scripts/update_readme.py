@@ -38,47 +38,46 @@ def cell(text):
     return text.replace("|", "\\|")
 
 
-def repos_block():
+def pick_repos():
     repos = api(f"/users/{USER}/repos?sort=pushed&direction=desc&per_page=30&type=owner")
-    picked = [
+    return [
         r for r in repos
         if not r["fork"] and not r["archived"] and r["name"].lower() != USER.lower()
     ][:MAX_REPOS]
+
+
+def repos_block(picked):
     if not picked:
         return "_No public repositories yet._"
-    rows = ["| Repository | About | Language | ⭐ | Last push |", "|---|---|---|---|---|"]
+    has_desc = any(r["description"] for r in picked)
+    head = ["Repository"] + (["About"] if has_desc else []) + ["Language", "⭐", "Last push"]
+    rows = ["| " + " | ".join(head) + " |", "|" + "---|" * len(head)]
     for r in picked:
-        rows.append(
-            "| [**{n}**]({u}) | {d} | {l} | {s} | {p} |".format(
-                n=r["name"],
-                u=r["html_url"],
-                d=cell(clip(r["description"], 80)) or "—",
-                l=r["language"] or "—",
-                s=r["stargazers_count"],
-                p=r["pushed_at"][:10],
-            )
-        )
+        cols = [f"[**{r['name']}**]({r['html_url']})"]
+        if has_desc:
+            cols.append(cell(clip(r["description"], 80)) or "—")
+        cols += [r["language"] or "—", str(r["stargazers_count"]), r["pushed_at"][:10]]
+        rows.append("| " + " | ".join(cols) + " |")
     return "\n".join(rows)
 
 
-def commits_block():
-    try:
-        events = api(f"/users/{USER}/events/public?per_page=100")
-    except Exception:
-        return "_Recent commits unavailable right now._"
-    seen, lines = set(), []
-    for e in events:
-        if e.get("type") != "PushEvent":
+def commits_block(picked):
+    """Latest commits straight from each recently pushed repo (the public events
+    feed no longer carries commit messages, so it can't be used for this)."""
+    found = []
+    for r in picked:
+        try:
+            commits = api(f"/repos/{USER}/{r['name']}/commits?per_page=3&author={USER}")
+        except Exception:
             continue
-        repo = e["repo"]["name"]
-        for c in reversed(e["payload"].get("commits", [])):
-            msg = clip(c["message"].splitlines()[0], 72)
-            if not msg or "[skip ci]" in c["message"] or (repo, msg) in seen:
+        for c in commits:
+            full = c["commit"]["message"]
+            msg = clip(full.splitlines()[0], 72)
+            if not msg or "[skip ci]" in full:
                 continue
-            seen.add((repo, msg))
-            lines.append(f"- `{e['created_at'][:10]}` [{repo.split('/')[-1]}](https://github.com/{repo}) — {msg}")
-            if len(lines) >= MAX_COMMITS:
-                return "\n".join(lines)
+            found.append((c["commit"]["author"]["date"], r["name"], r["html_url"], msg))
+    found.sort(reverse=True)
+    lines = [f"- `{d[:10]}` [{n}]({u}) — {m}" for d, n, u, m in found[:MAX_COMMITS]]
     return "\n".join(lines) if lines else "_No recent public commits._"
 
 
@@ -94,8 +93,9 @@ def replace(text, name, content):
 def main():
     with open(README, encoding="utf-8") as f:
         text = f.read()
-    text = replace(text, "repos", repos_block())
-    text = replace(text, "commits", commits_block())
+    picked = pick_repos()
+    text = replace(text, "repos", repos_block(picked))
+    text = replace(text, "commits", commits_block(picked))
     with open(README, "w", encoding="utf-8") as f:
         f.write(text)
     print("README activity sections refreshed")

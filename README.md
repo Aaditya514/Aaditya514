@@ -89,6 +89,14 @@ _No recent public commits._
 
 <br/>
 
+<img src="assets/t-skyline.svg" width="100%" alt="Contribution skyline" />
+
+<div align="center">
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution skyline with commit radar and language breakdown" />
+</div>
+
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
