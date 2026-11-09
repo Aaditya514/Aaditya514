@@ -94,19 +94,11 @@
 
 <br/>
 
-<img src="assets/t-skyline.svg" width="100%" alt="Contribution skyline" />
+<img src="assets/t-snake.svg" width="100%" alt="Contribution snake" />
 
 <div align="center">
-<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution skyline with commit radar and language breakdown" />
+<img src="assets/snake-3d.svg" width="100%" alt="3D snake eating my GitHub contributions" />
 </div>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Aaditya514/Aaditya514/output/github-snake.svg" width="100%" />
-</picture>
 
 <br/>
 

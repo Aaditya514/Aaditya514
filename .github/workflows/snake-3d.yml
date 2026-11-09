@@ -1,10 +1,14 @@
-name: Profile 3D Contributions
+name: Generate 3D Snake
 
 on:
   # Daily, 18:00 UTC
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/scripts/snake3d.py"
+      - ".github/workflows/snake-3d.yml"
 
 permissions:
   contents: write
@@ -15,29 +19,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: generate-github-profile-3d-contrib
+  snake:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate 3D contribution graphs
-        uses: yoshi389111/github-profile-3d-contrib@latest
+      - name: Generate 3D snake
+        run: python3 .github/scripts/snake3d.py --out assets/snake-3d.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          GH_USER: ${{ github.repository_owner }}
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib
+          git add assets/snake-3d.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update 3D contribution graph [skip ci]"
+            git commit -m "chore: update 3D snake [skip ci]"
             git pull --rebase
             git push
           fi

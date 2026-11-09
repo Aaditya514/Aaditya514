@@ -3,8 +3,8 @@
 <defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#FBBF24"/></linearGradient></defs>
 
 <rect x="4" y="16" width="6" height="32" rx="3" fill="url(#g)"><animate attributeName="height" values="32;18;32" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="16;23;16" dur="2.4s" repeatCount="indefinite"/></rect>
-<text x="28" y="43" font-size="26" font-weight="800" textLength="358.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="white-space:pre"><tspan fill="#8B949E">// </tspan><tspan fill="url(#g)">CONTRIBUTION SKYLINE</tspan></text>
-<line x1="404.8" y1="34" x2="992" y2="34" stroke="url(#g)" stroke-opacity=".55" stroke-width="2" class="fl"/>
-<circle r="4" cy="34" fill="#FBBF24"><animate attributeName="cx" values="404.8;992;404.8" dur="5s" repeatCount="indefinite"/></circle>
+<text x="28" y="43" font-size="26" font-weight="800" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="white-space:pre"><tspan fill="#8B949E">// </tspan><tspan fill="url(#g)">CONTRIBUTION SNAKE</tspan></text>
+<line x1="373.6" y1="34" x2="992" y2="34" stroke="url(#g)" stroke-opacity=".55" stroke-width="2" class="fl"/>
+<circle r="4" cy="34" fill="#FBBF24"><animate attributeName="cx" values="373.6;992;373.6" dur="5s" repeatCount="indefinite"/></circle>
 
 </svg>
