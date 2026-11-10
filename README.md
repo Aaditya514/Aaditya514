@@ -29,11 +29,6 @@
 
 <br/>
 
-<img src="assets/t-build.svg" width="100%" alt="How I build" />
-<img src="assets/arch.svg" width="100%" alt="Architecture: Angular to Spring Boot to PostgreSQL and Redis, Redis to a Node.js notification service, shipped through GitHub Actions and Docker to Vercel" />
-
-<br/>
-
 <img src="assets/t-arsenal.svg" width="100%" alt="Arsenal" />
 <img src="assets/marquee.svg" width="100%" alt="Java, Spring Boot, TypeScript, JavaScript, Angular, Node.js, Express, Python, C++, HTML5, CSS3, Tailwind, PostgreSQL, MongoDB, Redis, MySQL, Supabase, Docker, Git, GitHub Actions, Vercel, Postman, REST API" />
 
@@ -84,12 +79,7 @@
 <img src="assets/t-stats.svg" width="100%" alt="Live stats" />
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Aaditya514&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=61DAFB&icon_color=A78BFA&text_color=C9D1D9&ring_color=F472B6" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya514&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=61DAFB&text_color=C9D1D9" height="170" alt="Top languages" />
-<br/>
-<img src="https://streak-stats.demolab.com?user=Aaditya514&hide_border=true&background=0d1117&ring=A78BFA&fire=F472B6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=61DAFB&sideLabels=C9D1D9&dates=8B949E" alt="GitHub streak" />
-<br/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aaditya514&bg_color=0d1117&color=61DAFB&line=A78BFA&point=F472B6&area=true&area_color=61DAFB&hide_border=true&radius=12" width="100%" alt="Contribution activity graph" />
+<img src="assets/stats.svg" width="100%" alt="GitHub stats: contributions, commits, pull requests, streak and top languages" />
 </div>
 
 <br/>
