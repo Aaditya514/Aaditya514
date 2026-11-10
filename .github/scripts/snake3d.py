@@ -24,12 +24,16 @@ JX, JY = 6.0, 9.0     # one weekday step (j)
 HALF = 0.40           # footprint half-size as a fraction of a cell
 HEIGHTS = [0, 8, 15, 23, 32]
 PALETTE = ["#1a2230", "#0f5a78", "#1b97c0", "#61DAFB", "#C4A5FF"]
-SNAKE = ["#F472B6", "#EC6FC4", "#D66FDB", "#BE6FF0", "#A78BFA", "#9380F5", "#7E8BF0"]
+TAIL_COL, HEAD_COL = (126, 139, 240), (244, 114, 182)   # violet tail -> pink head
 FONT = "'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
 W, H = 1000, 380
-STEP = 0.048          # seconds per cell the head travels
-LAG = 0.34            # seconds between snake segments
-HOLD = 2.6            # pause at the end of the loop
+SPEED = 210.0         # head speed, px per second
+BODY_LEN = 250.0      # snake length in px
+MAX_W = 13.5          # body width just behind the head
+MIN_W = 3.6           # width at the tail tip
+WAVE_LEN = 52.0       # slither wavelength, px
+WAVE_AMP = 4.6        # slither amplitude, px
+HOLD = 2.4            # pause at the end of the loop
 
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 
@@ -98,6 +102,55 @@ def cube(cx, cy, h, color, half=HALF, extra=""):
     return "".join(out)
 
 
+def resample(points, step):
+    out = [points[0]]
+    carry = 0.0
+    for a, b in zip(points, points[1:]):
+        seg = math.hypot(b[0] - a[0], b[1] - a[1])
+        if seg == 0:
+            continue
+        d = step - carry
+        while d <= seg:
+            t = d / seg
+            out.append((a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t))
+            d += step
+        carry = seg - (d - step)
+    out.append(points[-1])
+    return out
+
+
+def smooth(p, radius, passes=2):
+    n = len(p)
+    for _ in range(passes):
+        q = []
+        for k in range(n):
+            lo, hi = max(0, k - radius), min(n - 1, k + radius)
+            m = hi - lo + 1
+            q.append((sum(x for x, _ in p[lo:hi + 1]) / m, sum(y for _, y in p[lo:hi + 1]) / m))
+        q[0], q[-1] = p[0], p[-1]
+        p = q
+    return p
+
+
+def slither(base, step):
+    """Smooth the cell-to-cell track, then add a travelling S-wave across it."""
+    dense = smooth(resample(base, step), 4, 3)
+    out, s = [], 0.0
+    for k, (x, y) in enumerate(dense):
+        a, b = dense[max(0, k - 3)], dense[min(len(dense) - 1, k + 3)]
+        tx, ty = b[0] - a[0], b[1] - a[1]
+        n = math.hypot(tx, ty) or 1.0
+        off = WAVE_AMP * math.sin(2 * math.pi * s / WAVE_LEN)
+        out.append((x - ty / n * off, y + tx / n * off))
+        if k:
+            s += step
+    return out
+
+
+def mix(t):
+    return "#%02x%02x%02x" % tuple(int(TAIL_COL[c] + (HEAD_COL[c] - TAIL_COL[c]) * t) for c in range(3))
+
+
 def build(n_weeks, cells, total):
     ox = (W - (IX * (n_weeks - 1) + JX * 6)) / 2
     oy = 78 - IY * (n_weeks - 1)
@@ -113,17 +166,28 @@ def build(n_weeks, cells, total):
 
     top = lambda i, j: centre(i, j)[1] - HEIGHTS[cells[(i, j)][1]]
     path_pts = [(centre(i, j)[0], top(i, j)) for i, j in order]
-    seglen = [0.0]
-    for a, b in zip(path_pts, path_pts[1:]):
-        seglen.append(seglen[-1] + math.hypot(b[0] - a[0], b[1] - a[1]))
-    Ltot = seglen[-1]
+    SIT = 5.5   # the body rides this many px above the bar tops
+    base = [(x, y - SIT) for x, y in path_pts]
+    track = slither(base, 3.0)
+    cum = [0.0]
+    for u, v in zip(track, track[1:]):
+        cum.append(cum[-1] + math.hypot(v[0] - u[0], v[1] - u[1]))
+    Ltot = cum[-1]
+    Tm = (Ltot + BODY_LEN) / SPEED
+    T = Tm + HOLD
+    th = Ltot / SPEED                      # head reaches the last cell
+    d_path = "M" + " L".join(f"{f2(x)} {f2(y)}" for x, y in track)
 
-    K = len(SNAKE)
-    M = len(order) * STEP
-    E = M + (K - 1) * LAG
-    T = E + HOLD
-    d_path = "M" + " L".join(f"{f2(x)} {f2(y)}" for x, y in path_pts)
-    eat_t = {c: seglen[k] / Ltot * M for k, c in enumerate(order)}
+    # when the head passes each cell
+    eat_t, idx = {}, 0
+    for cell, (bx, by) in zip(order, base):
+        best, bd = idx, 1e18
+        for k in range(idx, min(len(track), idx + 140)):
+            d = (track[k][0] - bx) ** 2 + (track[k][1] - by) ** 2
+            if d < bd:
+                best, bd = k, d
+        idx = best
+        eat_t[cell] = cum[best] / SPEED
 
     # cells, back to front
     draw = []
@@ -132,32 +196,55 @@ def build(n_weeks, cells, total):
         g = [cube(cx, cy, 1.5, PALETTE[0], 0.44)]
         if lvl > 0:
             t = eat_t[(i, j)]
-            kt = f"0;{t / T:.4f};{(t + .22) / T:.4f};{(T - .7) / T:.4f};1"
+            kt = f"0;{t / T:.4f};{(t + .16) / T:.4f};{(T - .7) / T:.4f};1"
             g.append(
                 f'<g><animate attributeName="opacity" dur="{T:.2f}s" repeatCount="indefinite" keyTimes="{kt}" values="1;1;0;0;1"/>'
                 f'<animateTransform attributeName="transform" type="translate" dur="{T:.2f}s" repeatCount="indefinite" '
-                f'keyTimes="0;{t / T:.4f};{(t + .22) / T:.4f};1" values="0 0;0 0;0 -9;0 -9"/>'
+                f'keyTimes="0;{t / T:.4f};{(t + .16) / T:.4f};1" values="0 0;0 0;0 -9;0 -9"/>'
                 f'{cube(cx, cy, HEIGHTS[lvl], PALETTE[lvl])}</g>'
             )
         draw.append("".join(g))
 
-    # snake segments (head first so the head is drawn last = on top)
-    segs = []
-    for k in range(K - 1, -1, -1):
-        a, b = k * LAG / T, (M + k * LAG) / T
-        half = 0.50 if k == 0 else 0.44
-        hh = 9 if k == 0 else 7
-        segs.append(
-            f'<g><animateMotion dur="{T:.2f}s" repeatCount="indefinite" calcMode="linear" '
-            f'keyPoints="0;0;1;1" keyTimes="0;{a:.4f};{b:.4f};1" path="{d_path}"/>'
-            f'{cube(0, 0, hh, SNAKE[k], half)}'
-            + (f'<circle cx="{f2(IX * .42)}" cy="{f2(-hh - 1.5)}" r="1.6" fill="#0a0e17"/><circle cx="{f2(IX * .42 - 4.2)}" cy="{f2(-hh - 0.3)}" r="1.6" fill="#0a0e17"/>' if k == 0 else "")
-            + "</g>"
+    # body: stacked head-anchored strokes (long+thin ... short+thick) = tapered tube
+    N = 30
+    far = int(Ltot * 10)
+    layers = []
+    for k in range(N):
+        f = k / (N - 1)
+        ln = BODY_LEN * (1 - 0.9 * f ** 0.8)
+        w = MIN_W + (MAX_W - MIN_W) * (f ** 0.7)
+        col = mix(f)
+        off0, off1 = ln, ln - (Ltot + BODY_LEN)
+        kt = f"0;{Tm / T:.4f};1"
+        dash = (f'stroke-dasharray="{ln:.0f} {far}" stroke-linecap="round" stroke-linejoin="round" fill="none"')
+        anim = (f'<animate attributeName="stroke-dashoffset" dur="{T:.2f}s" repeatCount="indefinite" '
+                f'keyTimes="{kt}" values="{off0:.1f};{off1:.1f};{off1:.1f}"/>')
+        layers.append(f'<use href="#sp" stroke="{col}" stroke-width="{w:.1f}" {dash}>{anim}</use>')
+        layers.append(
+            f'<use href="#sp" stroke="#ffffff" stroke-opacity=".30" stroke-width="{w * .30:.1f}" '
+            f'transform="translate(0 {-w * .22:.1f})" {dash}>{anim}</use>'
         )
-    fade = f"0;{.4 / T:.4f};{E / T:.4f};{(E + .6) / T:.4f};1"
+    shadow = (
+        f'<use href="#sp" stroke="#000" stroke-opacity=".38" stroke-width="{MAX_W:.1f}" transform="translate(3 9)" filter="url(#soft)" '
+        f'stroke-dasharray="{BODY_LEN:.0f} {far}" stroke-linecap="round" stroke-linejoin="round" fill="none">'
+        f'<animate attributeName="stroke-dashoffset" dur="{T:.2f}s" repeatCount="indefinite" keyTimes="0;{Tm / T:.4f};1" '
+        f'values="{BODY_LEN:.1f};{BODY_LEN - Ltot - BODY_LEN:.1f};{BODY_LEN - Ltot - BODY_LEN:.1f}"/></use>'
+    )
+    head = (
+        f'<g><animateMotion dur="{T:.2f}s" repeatCount="indefinite" rotate="auto" calcMode="linear" '
+        f'keyPoints="0;1;1" keyTimes="0;{th / T:.4f};1" path="{d_path}"/>'
+        f'<path d="M14 0 H22 M22 0 L26 -3 M22 0 L26 3" stroke="#FF4D6D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none">'
+        f'<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.3;.4;.7;1" dur="0.9s" repeatCount="indefinite"/></path>'
+        f'<ellipse cx="3" cy="0" rx="12" ry="8.6" fill="url(#hd)" stroke="#8a2a63" stroke-width="1"/>'
+        f'<ellipse cx="2" cy="-2.8" rx="7.5" ry="2.6" fill="#fff" fill-opacity=".28"/>'
+        f'<circle cx="6" cy="-4.2" r="2.6" fill="#fff"/><circle cx="6" cy="4.2" r="2.6" fill="#fff"/>'
+        f'<circle cx="7" cy="-4.2" r="1.35" fill="#0a0e17"/><circle cx="7" cy="4.2" r="1.35" fill="#0a0e17"/>'
+        f'<circle cx="13" cy="-2" r=".9" fill="#8a2a63"/><circle cx="13" cy="2" r=".9" fill="#8a2a63"/></g>'
+    )
+    fade = f"0;{.12 / T:.4f};{(Tm - .15) / T:.4f};{Tm / T:.4f};1"
     snake = (
-        f'<g filter="url(#glow)"><animate attributeName="opacity" dur="{T:.2f}s" repeatCount="indefinite" '
-        f'keyTimes="{fade}" values="0;1;1;0;0"/>{"".join(segs)}</g>'
+        f'<g><animate attributeName="opacity" dur="{T:.2f}s" repeatCount="indefinite" keyTimes="{fade}" values="0;1;1;0;0"/>'
+        f'{shadow}<g filter="url(#glow)">{"".join(layers)}{head}</g></g>'
     )
 
     legend_x = W - 250
@@ -176,7 +263,10 @@ def build(n_weeks, cells, total):
 <text x="{legend_x}" y="{H - 26}" font-size="12" fill="#8B949E">Less</text>{legend}
 <text x="{legend_x + 154}" y="{H - 26}" font-size="12" fill="#8B949E">More</text>
 """
-    defs = """<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#120d1f"/></linearGradient>
+    defs = f"""<path id="sp" d="{d_path}" fill="none"/>
+<radialGradient id="hd" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FF8FC7"/><stop offset="1" stop-color="#E2549F"/></radialGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.4"/></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#120d1f"/></linearGradient>
 <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#61DAFB" fill-opacity=".12"/></pattern>
 <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>"""
     return (
