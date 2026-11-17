@@ -50,7 +50,7 @@
 <!--START_SECTION:repos-->
 | Repository | Language | ⭐ | Last push |
 |---|---|---|---|
-| [**broski**](https://github.com/Aaditya514/broski) | — | 0 | 2026-11-15 |
+| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-17 |
 | [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-15 |
 | [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
 | [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | JavaScript | 0 | 2026-10-02 |
@@ -62,9 +62,9 @@
 <br/>
 
 <!--START_SECTION:commits-->
+- `2026-11-17` [broski](https://github.com/Aaditya514/broski) — Merge pull request #1 from Aaditya514/feat/sprint-1-foundation
+- `2026-11-17` [broski](https://github.com/Aaditya514/broski) — feat(setup): configure pyproject.toml packaging and initialize Python 3…
 - `2026-11-15` [broski](https://github.com/Aaditya514/broski) — docs: wrap up Day 1 dev log and prepare Day 2 kickoff
-- `2026-11-15` [broski](https://github.com/Aaditya514/broski) — docs: update dev log with GitHub origin connection and initial push
-- `2026-11-15` [broski](https://github.com/Aaditya514/broski) — merge: add PRD, architecture, and dev log (Sprint 0)
 - `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — chore: remove legacy architecture artifacts, scratch notes, and update…
 - `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: set cancel-in-progress to false for CI workflow
 - `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: enable workflow_dispatch trigger for CI pipeline
