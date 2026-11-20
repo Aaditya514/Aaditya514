@@ -50,7 +50,7 @@
 <!--START_SECTION:repos-->
 | Repository | Language | ⭐ | Last push |
 |---|---|---|---|
-| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-18 |
+| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-20 |
 | [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-15 |
 | [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
 | [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | JavaScript | 0 | 2026-10-02 |
