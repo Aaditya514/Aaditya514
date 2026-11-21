@@ -50,7 +50,7 @@
 <!--START_SECTION:repos-->
 | Repository | Language | ⭐ | Last push |
 |---|---|---|---|
-| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-20 |
+| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-21 |
 | [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-15 |
 | [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
 | [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | JavaScript | 0 | 2026-10-02 |
@@ -62,9 +62,9 @@
 <br/>
 
 <!--START_SECTION:commits-->
-- `2026-11-18` [broski](https://github.com/Aaditya514/broski) — Merge pull request #2 from Aaditya514/feat/sprint-1-foundation
-- `2026-11-18` [broski](https://github.com/Aaditya514/broski) — feat(config): implement type-safe settings and secret masking (Sprint 1…
-- `2026-11-17` [broski](https://github.com/Aaditya514/broski) — Merge pull request #1 from Aaditya514/feat/sprint-1-foundation
+- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — docs: organize separate sprint dev logs and add master index
+- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — merge: complete Sprint 1 foundation and core infrastructure (Days 3, 4…
+- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — docs: complete Sprint 1 review and retrospective (Sprint 1 Day 5)
 - `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — chore: remove legacy architecture artifacts, scratch notes, and update…
 - `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: set cancel-in-progress to false for CI workflow
 - `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: enable workflow_dispatch trigger for CI pipeline
