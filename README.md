@@ -50,11 +50,11 @@
 <!--START_SECTION:repos-->
 | Repository | Language | ⭐ | Last push |
 |---|---|---|---|
-| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-22 |
+| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-23 |
 | [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-15 |
+| [**My-Money**](https://github.com/Aaditya514/My-Money) | HTML | 0 | 2026-10-21 |
 | [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
 | [**Aaditya514.github.io**](https://github.com/Aaditya514/Aaditya514.github.io) | JavaScript | 0 | 2026-10-02 |
-| [**priora**](https://github.com/Aaditya514/priora) | TypeScript | 0 | 2026-09-24 |
 <!--END_SECTION:repos-->
 
 <details>
@@ -66,8 +66,8 @@
 - `2026-11-21` [broski](https://github.com/Aaditya514/broski) — merge: complete Sprint 1 foundation and core infrastructure (Days 3, 4…
 - `2026-11-21` [broski](https://github.com/Aaditya514/broski) — docs: complete Sprint 1 review and retrospective (Sprint 1 Day 5)
 - `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — chore: remove legacy architecture artifacts, scratch notes, and update…
-- `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: set cancel-in-progress to false for CI workflow
-- `2026-10-16` [the-college-life](https://github.com/Aaditya514/the-college-life) — ci: enable workflow_dispatch trigger for CI pipeline
+- `2026-10-21` [My-Money](https://github.com/Aaditya514/My-Money) — feat: enforce mandatory mobile number during registration and add in-me…
+- `2026-10-21` [My-Money](https://github.com/Aaditya514/My-Money) — feat: simplify registration to direct auto-login with mandatory mobile…
 <!--END_SECTION:commits-->
 
 </details>
