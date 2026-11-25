@@ -50,7 +50,7 @@
 <!--START_SECTION:repos-->
 | Repository | Language | ⭐ | Last push |
 |---|---|---|---|
-| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-24 |
+| [**broski**](https://github.com/Aaditya514/broski) | Python | 0 | 2026-11-25 |
 | [**auto-meds**](https://github.com/Aaditya514/auto-meds) | Java | 0 | 2026-11-15 |
 | [**My-Money**](https://github.com/Aaditya514/My-Money) | HTML | 0 | 2026-10-21 |
 | [**the-college-life**](https://github.com/Aaditya514/the-college-life) | TypeScript | 0 | 2026-10-16 |
@@ -62,9 +62,9 @@
 <br/>
 
 <!--START_SECTION:commits-->
-- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — docs: organize separate sprint dev logs and add master index
-- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — merge: complete Sprint 1 foundation and core infrastructure (Days 3, 4…
-- `2026-11-21` [broski](https://github.com/Aaditya514/broski) — docs: complete Sprint 1 review and retrospective (Sprint 1 Day 5)
+- `2026-11-25` [broski](https://github.com/Aaditya514/broski) — docs: update README with Sprint 2 completion, Sprint 3 status, and quic…
+- `2026-11-25` [broski](https://github.com/Aaditya514/broski) — Merge pull request #4 from Aaditya514/feat/sprint-3-tts
+- `2026-11-25` [broski](https://github.com/Aaditya514/broski) — feat(audio): implement PiperSynthesizer local neural TTS (Sprint 3 Day…
 - `2026-11-08` [auto-meds](https://github.com/Aaditya514/auto-meds) — chore: remove legacy architecture artifacts, scratch notes, and update…
 - `2026-10-21` [My-Money](https://github.com/Aaditya514/My-Money) — feat: enforce mandatory mobile number during registration and add in-me…
 - `2026-10-21` [My-Money](https://github.com/Aaditya514/My-Money) — feat: simplify registration to direct auto-login with mandatory mobile…
